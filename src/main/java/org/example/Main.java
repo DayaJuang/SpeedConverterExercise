@@ -14,9 +14,8 @@ public class Main {
         var KILO_TO_MILE = 1.609;
         long conversion = Math.round(kilometersPerHour / KILO_TO_MILE);
 
-        if(kilometersPerHour < 0){
+        if(kilometersPerHour < 0)
             conversion = -1;
-        }
 
         return conversion;
     }
